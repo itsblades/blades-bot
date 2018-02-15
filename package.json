@@ -2,8 +2,6 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "The Best Bot EVER",
-  "engines": {
-    "node": "8.9.4"
   "main": "index.js",
   "dependencies": {
     "discord-music-bot": "^2.3.0",
@@ -12,6 +10,8 @@
     "node-ytdl-master": "^0.10.0",
     "opusscript": "0.0.6",
     "ytdl-core": "^0.20.1"
+  "engines": {
+    "node": "8.9.4"
   },
   "devDependencies": {},
   "scripts": {},
