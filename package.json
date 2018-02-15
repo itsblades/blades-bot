@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The Best Bot EVER",
   "main": "index.js",
+    "node": "8.9.4"
   "dependencies": {
     "discord-music-bot": "^2.3.0",
     "discord.js": "^11.3.0",
