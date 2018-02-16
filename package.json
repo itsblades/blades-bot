@@ -1,20 +1,28 @@
-{
-  "name": "bot",
+{{
+  "name": "bladesbot",
   "version": "1.0.0",
-  "description": "Sickkk Bot",
-  "main": "index.js",
-  "dependencies": {
-    "discord-music-bot": "^2.3.0",
-    "discord-music-bot-master": "^2.3.0",
-    "discord.js": "^11.3.0",
-    "discord.js-commando": "^0.9.0",
-    "opusscript": "^0.0.6",
-    "ytdl-core": "^0.20.1"
-  },
-  "devDependencies": {},
+  "description": "First Discord Bot",
+  "main": "node index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": { "node": "8.9.4" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsblades/blades-bot"
   },
   "author": "Its Blades",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsblades/blades-bot/issues"
+  },
+  "homepage": "https://github.com/itsblades/blades-bot",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "enmap": "^0.3.2",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0",
+    "express": "^4.15.5"
+  }
 }
